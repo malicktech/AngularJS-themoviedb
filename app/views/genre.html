@@ -1,0 +1,8 @@
+<h1>Genres</h1>
+<form ng-submit='exec("genre","list")'>
+    <button class="btn" type="submit">Show Genre List</button>
+</form>
+<form ng-submit='exec("genre","movies",genreQuery)'>
+    <input type="text" data-ng-model="genreQuery">
+    <button class="btn" type="submit">Show Movies With Genre</button>
+</form>

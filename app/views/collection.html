@@ -1,0 +1,9 @@
+<h1>Collections</h1>
+<form class="form-search" ng-submit='exec("collection","collection",collectionQuery)'>
+    <input type="text" data-ng-model="collectionQuery">
+    <button class="btn" type="submit">Show Collection</button>
+</form>
+<form ng-submit='exec("collection","images",collectionQuery)'>
+    <input type="text" data-ng-model="collectionQuery">
+    <button class="btn" type="submit">Show Collection Images</button>
+</form>

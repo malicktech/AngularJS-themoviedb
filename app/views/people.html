@@ -1,0 +1,20 @@
+<h1>People</h1>
+<form ng-submit='exec("people","person",peopleQuery)'>
+    <input type="text" data-ng-model="peopleQuery">
+    <button class="btn" type="submit">Show Person</button>
+</form>
+<form ng-submit='exec("people","images",peopleQuery)'>
+    <input type="text" data-ng-model="peopleQuery">
+    <button class="btn" type="submit">Show Person Images</button>
+</form>
+<form ng-submit='exec("people","credits",peopleQuery)'>
+    <input type="text" data-ng-model="peopleQuery">
+    <button class="btn" type="submit">Show Person Credits</button>
+</form>
+<form ng-submit='exec("people","changes",peopleQuery)'>
+    <input type="text" data-ng-model="peopleQuery">
+    <button class="btn" type="submit">Show Person Changes</button>
+</form>
+<form ng-submit='exec("people","latest")'>
+    <button class="btn" type="submit">Show Latest Person</button>
+</form>
